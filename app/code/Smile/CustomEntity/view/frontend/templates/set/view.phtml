@@ -1,0 +1,22 @@
+<?php
+/**
+ * Attribute set frontend view block
+ *
+ * @var $block \Smile\CustomEntity\Block\Set\View
+ */
+?>
+<div class="page-products">
+    <div class="products wrapper products-grid">
+        <ol class="products list items product-items">
+            <?php foreach ($block->getEntities() as $entity): ?>
+            <li class="item product product-item">
+                <?= $block->getEntityHtml($entity); ?>
+            </li>
+            <?php endforeach ?>
+        </ol>
+    </div>
+
+    <div class="toolbar toolbar-products">
+        <?= $block->getPager()->toHtml(); ?>
+    </div>
+</div>
