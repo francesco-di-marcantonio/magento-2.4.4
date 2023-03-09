@@ -1,0 +1,12 @@
+<?php
+/**
+ * Attribute set frontend view block
+ *
+ * @var $block \Smile\CustomEntity\Block\CustomEntity\Image
+ * @var $escaper Magento\Framework\Escaper
+ */
+?>
+<?php if ($block->getImageUrl()): ?>
+  <img src="<?= $escaper->escapeUrl($block->getImageUrl()) ?>"
+       alt="<?= $escaper->escapeUrl($block->getImageAlt()) ?>" />
+<?php endif; ?>

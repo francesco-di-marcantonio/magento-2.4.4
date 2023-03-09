@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="custom_entity.set.entity.renderers">
+            <block class="Smile\CustomEntity\Block\Set\Entity\Renderer" name="custom_entity.set.entity.renderers.default" as="default" template="Smile_CustomEntity::set/entity/default.phtml" />
+        </referenceBlock>
+    </body>
+</page>
