@@ -1,0 +1,22 @@
+{
+  "name": "dimarcantonio/module-api-custom-entity",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "smile/module-custom-entity": "*",
+    "smile/module-scoped-eav": "*"
+  },
+  "license": [
+    "Francesco_DiMarcantonio"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dimarcantonio\\ApiCustomEntity\\": ""
+    }
+  }
+}

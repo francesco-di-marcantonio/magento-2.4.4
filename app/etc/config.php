@@ -326,11 +326,13 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Algolia_AlgoliaSearch' => 1,
+        'Smile_ScopedEav' => 1,
         'MarkShust_DisableTwoFactorAuth' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Smile_ScopedEav' => 1,
         'Smile_CustomEntity' => 1,
+        'Smile_DebugToolbar' => 1,
+        'Dimarcantonio_ApiCustomEntity' => 1,
         'Temando_ShippingRemover' => 1
     ]
 ];

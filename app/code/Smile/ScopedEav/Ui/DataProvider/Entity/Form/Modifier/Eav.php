@@ -444,7 +444,7 @@ class Eav extends AbstractModifier
      *
      * @param AttributeInterface $attribute Attribute.
      */
-    private function canDisplayUseDefault(AttributeInterface $attribute): bool
+    private function canDisplayUseDefault(AttributeInterface $attribute)
     {
         return $this->eavHelper->canDisplayUseDefault($attribute, $this->locator->getEntity());
     }

@@ -116,8 +116,8 @@ return [
         'document_root_is_pub' => true
     ],
     'cache_types' => [
-        'config' => 1,
-        'layout' => 1,
+        'config' => 0,
+        'layout' => 0,
         'block_html' => 0,
         'collections' => 1,
         'reflection' => 1,

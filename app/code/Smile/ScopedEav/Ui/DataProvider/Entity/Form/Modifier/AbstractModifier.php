@@ -136,7 +136,7 @@ abstract class AbstractModifier implements ModifierInterface
         array $attributeCodes,
         int $defaultSortOrder,
         int $iteration = 1
-    ): mixed {
+    ) {
         if (isset($meta['children'])) {
             foreach ($meta['children'] as $attributeCode => $attributeMeta) {
                 if ($this->startsWith($attributeCode, self::CONTAINER_PREFIX)) {
